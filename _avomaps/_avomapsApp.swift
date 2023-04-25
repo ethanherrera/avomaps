@@ -12,7 +12,7 @@ import GoogleMaps
 struct _avomapsApp: App {
     
     init() {
-        GMSServices.provideAPIKey("AIzaSyAcRO_jLRE7ylqD1YllL0tNszyoEiMDMO4")
+        GMSServices.provideAPIKey("")
     }
     
     var body: some Scene {
