@@ -68,7 +68,7 @@ struct MapView: UIViewRepresentable {
         let origin = "\(currentPlace.latitude),\(currentPlace.longitude)"
         let destination = "\(destination.position.latitude),\(destination.position.longitude)"
         
-        let url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin)&destination=\(destination)&mode=walking&key=AIzaSyAcRO_jLRE7ylqD1YllL0tNszyoEiMDMO4"
+        let url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin)&destination=\(destination)&mode=walking&key="
         
         print(url)
         
