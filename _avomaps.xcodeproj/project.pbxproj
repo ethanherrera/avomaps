@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1D5F1229E0E0FF0085BCD4 /* CustomPlacesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D5F1129E0E0FF0085BCD4 /* CustomPlacesList.swift */; };
 		AADA409129C9153F00F7E3BD /* _avomapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA409029C9153F00F7E3BD /* _avomapsApp.swift */; };
 		AADA409329C9153F00F7E3BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA409229C9153F00F7E3BD /* ContentView.swift */; };
 		AADA409529C9153F00F7E3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADA409429C9153F00F7E3BD /* Assets.xcassets */; };
 		AADA409829C9153F00F7E3BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADA409729C9153F00F7E3BD /* Preview Assets.xcassets */; };
+		AADA409F29C9185C00F7E3BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA409E29C9185C00F7E3BD /* MapView.swift */; };
+		AADA40A129C91D7100F7E3BD /* CustomPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA40A029C91D7100F7E3BD /* CustomPlace.swift */; };
+		AAF4119629E06A0A00D909A1 /* avoMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF4119329E06A0A00D909A1 /* avoMarker.png */; };
+		AAF4119729E06A0A00D909A1 /* CurrentPin.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF4119429E06A0A00D909A1 /* CurrentPin.png */; };
+		AAF4119829E06A0A00D909A1 /* DestinationPin.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF4119529E06A0A00D909A1 /* DestinationPin.png */; };
+		CEECC15D6DA7D332A29CC54D /* Pods__avomaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B421C0A167C352384AB895 /* Pods__avomaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39B421C0A167C352384AB895 /* Pods__avomaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__avomaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7196ACB44FD47736ADA9D42E /* Pods-_avomaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_avomaps.debug.xcconfig"; path = "Target Support Files/Pods-_avomaps/Pods-_avomaps.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1D5F1129E0E0FF0085BCD4 /* CustomPlacesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPlacesList.swift; sourceTree = "<group>"; };
 		AADA408D29C9153F00F7E3BD /* _avomaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _avomaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADA409029C9153F00F7E3BD /* _avomapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _avomapsApp.swift; sourceTree = "<group>"; };
 		AADA409229C9153F00F7E3BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AADA409429C9153F00F7E3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADA409729C9153F00F7E3BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AADA409E29C9185C00F7E3BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AADA40A029C91D7100F7E3BD /* CustomPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlace.swift; sourceTree = "<group>"; };
+		AAF4119329E06A0A00D909A1 /* avoMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avoMarker.png; sourceTree = "<group>"; };
+		AAF4119429E06A0A00D909A1 /* CurrentPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CurrentPin.png; sourceTree = "<group>"; };
+		AAF4119529E06A0A00D909A1 /* DestinationPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DestinationPin.png; sourceTree = "<group>"; };
+		EB63319DFB486EA993811A67 /* Pods-_avomaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_avomaps.release.xcconfig"; path = "Target Support Files/Pods-_avomaps/Pods-_avomaps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEECC15D6DA7D332A29CC54D /* Pods__avomaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10A3BA15BAF3906AD29471FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7196ACB44FD47736ADA9D42E /* Pods-_avomaps.debug.xcconfig */,
+				EB63319DFB486EA993811A67 /* Pods-_avomaps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D9BF64D36CF770FEBE6E469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B421C0A167C352384AB895 /* Pods__avomaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AADA408429C9153F00F7E3BD = {
 			isa = PBXGroup;
 			children = (
 				AADA408F29C9153F00F7E3BD /* _avomaps */,
 				AADA408E29C9153F00F7E3BD /* Products */,
+				10A3BA15BAF3906AD29471FF /* Pods */,
+				8D9BF64D36CF770FEBE6E469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				AADA409029C9153F00F7E3BD /* _avomapsApp.swift */,
+				AADA40A029C91D7100F7E3BD /* CustomPlace.swift */,
+				AADA409E29C9185C00F7E3BD /* MapView.swift */,
 				AADA409229C9153F00F7E3BD /* ContentView.swift */,
+				AA1D5F1129E0E0FF0085BCD4 /* CustomPlacesList.swift */,
+				AAF4119329E06A0A00D909A1 /* avoMarker.png */,
+				AAF4119429E06A0A00D909A1 /* CurrentPin.png */,
+				AAF4119529E06A0A00D909A1 /* DestinationPin.png */,
 				AADA409429C9153F00F7E3BD /* Assets.xcassets */,
 				AADA409629C9153F00F7E3BD /* Preview Content */,
 			);
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADA409B29C9153F00F7E3BD /* Build configuration list for PBXNativeTarget "_avomaps" */;
 			buildPhases = (
+				5762DC27A19645E55623C2EA /* [CP] Check Pods Manifest.lock */,
 				AADA408929C9153F00F7E3BD /* Sources */,
 				AADA408A29C9153F00F7E3BD /* Frameworks */,
 				AADA408B29C9153F00F7E3BD /* Resources */,
+				6C7D5CBB6230A14FF88F3F23 /* [CP] Copy Pods Resources */,
+				FF6D6A711AE1BA431E04AC8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,17 +172,82 @@
 			files = (
 				AADA409829C9153F00F7E3BD /* Preview Assets.xcassets in Resources */,
 				AADA409529C9153F00F7E3BD /* Assets.xcassets in Resources */,
+				AAF4119829E06A0A00D909A1 /* DestinationPin.png in Resources */,
+				AAF4119629E06A0A00D909A1 /* avoMarker.png in Resources */,
+				AAF4119729E06A0A00D909A1 /* CurrentPin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5762DC27A19645E55623C2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-_avomaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7D5CBB6230A14FF88F3F23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6D6A711AE1BA431E04AC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-_avomaps/Pods-_avomaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AADA408929C9153F00F7E3BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1D5F1229E0E0FF0085BCD4 /* CustomPlacesList.swift in Sources */,
+				AADA40A129C91D7100F7E3BD /* CustomPlace.swift in Sources */,
 				AADA409329C9153F00F7E3BD /* ContentView.swift in Sources */,
+				AADA409F29C9185C00F7E3BD /* MapView.swift in Sources */,
 				AADA409129C9153F00F7E3BD /* _avomapsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +371,7 @@
 		};
 		AADA409C29C9153F00F7E3BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7196ACB44FD47736ADA9D42E /* Pods-_avomaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +400,7 @@
 		};
 		AADA409D29C9153F00F7E3BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB63319DFB486EA993811A67 /* Pods-_avomaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
